@@ -1,0 +1,156 @@
+* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #e5e6ee;
+    color: #0f0d0d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #141414;
+    text-decoration: black;
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #2b3247;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 2em;
+    color: #8b5e23;
+}
+
+.hero button {
+    background-color: #3a5fcd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-image {
+    background-color: #888;
+    width: 180px;
+    height: 350px;
+    margin-left: 60px;
+}
+.placeho img {
+    height: 300px;
+    width: 380px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 5px; 
+    margin-left: 300px;
+}
+
+.info {
+    padding: 54px;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #0f0f0f;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+    color: #160d0d;
+    font-size: 1.5em;
+}
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.image-placeholder {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    padding: 50px;
+    background-color: #868181;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    background-color: #073322;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .cta {
+    background-color: #be981b;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer button {
+    background-color: #082955;
+    color: #eff0f5;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin: 20px auto;
+    }
+
+    .info-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
+}
+.ptr {
+    background-color: #eff0f5;
+    color: #0f0f0f;
+}
